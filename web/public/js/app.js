@@ -16051,14 +16051,15 @@ __webpack_require__.r(__webpack_exports__);
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]); // パスとコンポーネントのマッピング
 
 var routes = [{
-  path: '/',
+  path: "/",
   component: _pages_PhotoList_vue__WEBPACK_IMPORTED_MODULE_2__["default"]
 }, {
-  path: '/login',
+  path: "/login",
   component: _pages_Login_vue__WEBPACK_IMPORTED_MODULE_3__["default"]
 }]; // VueRouterインスタンスを作成する
 
 var router = new vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]({
+  mode: "history",
   routes: routes
 }); // VueRouterインスタンスをエクスポートする
 // app.jsでインポートするため
